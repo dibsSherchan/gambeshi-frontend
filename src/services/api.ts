@@ -12,7 +12,8 @@ import {
 // Change this to your backend IP when testing on physical device
 // For emulator: http://localhost:3000/api/v1
 // For physical device: http://YOUR_COMPUTER_IP:3000/api/v1
-export const API_BASE = "http://192.168.1.12:3000/api/v1";
+export const API_BASE =
+  "https://gambeshi-backend-production.up.railway.app/api/v1";
 
 export const api = axios.create({
   baseURL: API_BASE,
